@@ -257,6 +257,27 @@ a:hover {
     flex-grow: 1;
 }
 
+.links{
+    color: #15002a;
+    font-style: normal;    
+    font-weight: bold;
+    margin: 5px;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 2px solid #ff00ff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 5px 15px rgba(255, 0, 255, 0.2);
+    position: relative;
+    z-index: 1000;
+}
+.links:hover{
+    background-color: #8115d3;
+    color: #00f0ff;
+    transform: translateY(-3px);
+    text-decoration: none;
+}
+
 .nav-link {
     color: #e0e6ed;
     text-decoration: none;
@@ -288,6 +309,7 @@ a:hover {
     color: #1a1a2e;
     padding: 15px 30px;
     border-radius: 50px;
+    text-align: center;
     font-weight: 700;
     font-size: 1.2em;
     cursor: pointer;
